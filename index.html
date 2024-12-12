@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> C H R O N O S   </title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(45deg, black, purple);
+            height: 100vh; /* Certificando-se de que o body ocupe toda a altura da tela */
+            margin: 0; /* Removendo margens padrão */
+            transition: background 1s ease;
+            
+        }
+
+        h1 {
+            color: white;
+        }
+        
+
+        header {
+            background-color: black;
+            position: fixed;
+            width: 100%;
+            padding-left: 0;
+            margin-left: 0;
+            left: 0;
+            top: 0;
+        }
+
+        menu {
+            text-decoration: none;
+            text-align: center;
+            display:flex;
+            gap: 1rem;
+            list-style-type: none;
+            border: none;
+            color: white;
+        }
+
+        .headerButtons{
+            background: none;
+            border: none;
+            color: white;
+            
+        }
+
+        p {
+            margin-left: 10%;
+            font-size: 15px;
+            color: white;
+        }
+
+        h1 {
+            margin-left: 10%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        .box {
+            padding-top: 5%;
+        }
+
+        .boxSobre {
+            padding-left: 20%;
+            display: flex;
+        }
+
+        .skills {
+            flex: 1;
+            gap: 1rem;
+            color: white;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border: 1px solid black;
+            text-shadow: 2px 5x 3px black;
+        }
+
+        .divProjetos{
+            text-align: center;
+            color: white;
+        }
+
+        a {
+            margin-left: 44%;
+            color: white;
+            text-decoration: none;
+            border: 1px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <menu>
+            <li><button class="headerButtons">Inicio</button></li>
+            <li><button class="headerButtons" >Projetos</button></li>
+        </menu>
+    </header>
+
+    <div class="box">
+        <h1>Sobre</h1>
+        <p> Profissional Recente, Eterno Estudante.</p>
+        
+        <div class="boxSobre">
+            <div class="skills">
+                <h2>SoftSkills</h2>
+                &#x25BA; Comunicação assertiva. <br>
+                &#x25BA; Persistência. <br>
+                &#x25BA; Estratégico. <br>
+                &#x25BA; Flexibilidade e Adaptabilidade <br>
+                &#x25BA; Organização. <br>
+            </div>
+
+            <div class="skills">
+                <h2>HardSkills</h2>
+                &#x25BA; Python Intermediário. <br>
+                &#x25BA; Automação com Python. <br>
+                &#x25BA; Analista de dados com Python. <br>
+                &#x25BA; Web Dev (HTML, CSS, JAVASCRIPT). <br>
+                &#x25BA; Java Intermediário. <br>
+                </p>
+            </div>
+        </div>
+
+        <div class="divProjetos">
+            <h2>Meus Projetos</h2>
+
+            <img class="cropped" src="number.png" alt="">
+            <img class="cropped" src="consciencianegra.png" alt="">
+            <img class="cropped" src="Calculator.png" alt="">
+            <img class="cropped" src="ballchange.png" alt="">
+        </div>
+        <a href="https://chronos-txt.github.io/senac_projects/">MENU DE PROJETOS</a>
+    </div>
+
+</body>
+</html>
